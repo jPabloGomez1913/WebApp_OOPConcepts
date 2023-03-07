@@ -98,6 +98,23 @@ namespace WebApp_OOPConcepts
 
                 Console.WriteLine(hourlyEmploye);
 
+                Employe baseCommissionEmploye = new BaseCommissionEmploye()
+                {
+                    Id = 10,
+                    FirstName = "valen",
+                    LastName = "i dont know",
+                    BirthDate = dateObject,
+                    HiringDate = dateObject,
+                    IsActive = false,
+                    Sales=5200000,
+                    CommissionPercentage=10,
+                    Base=2000000
+
+
+
+                };
+                Console.WriteLine(baseCommissionEmploye);
+
             }
             catch (Exception message)
             {
